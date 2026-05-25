@@ -33,6 +33,15 @@ Kaggle Credit Card Fraud Detection Dataset.
 
 Accuracy alone is misleading for fraud detection because the dataset is highly imbalanced. Recall and F1-score are more meaningful for detecting rare fraud cases.
 
+## Features
+
+- Real-time fraud prediction
+- Rule-based vs ML comparison
+- React visualization dashboard
+- REST API endpoints
+- Model metrics analysis
+- Fraud probability scoring
+- Imbalanced dataset handling using SMOTE
 
 ## How to Run Backend
 
@@ -63,7 +72,3 @@ Frontend URL:
 ```txt
 http://localhost:5173
 ```
-```bash
-python ml/train.py
-python ml/evaluate.py
-uvicorn api.main:app --reload
