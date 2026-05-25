@@ -1,0 +1,7 @@
+data/creditcard.csv
+ml/models/*.pkl
+ml/models/*.json
+__pycache__/
+venv/
+.env
+.idea/
