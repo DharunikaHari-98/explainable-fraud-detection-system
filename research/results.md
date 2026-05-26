@@ -9,6 +9,7 @@
 ---
 
 ## Models Evaluated
+
 1. Logistic Regression
 2. Random Forest
 3. XGBoost
@@ -16,6 +17,7 @@
 ---
 
 ## Evaluation Metrics
+
 - Precision
 - Recall
 - F1-score
@@ -36,7 +38,13 @@
 ## Observations
 
 - Random Forest achieved the best overall F1-score.
-- Logistic Regression had high recall but very low precision, meaning it caught many frauds but created many false positives.
-- XGBoost achieved high recall and ROC-AUC but lower precision than Random Forest.
-- SMOTE helped improve minority class detection.
+- Logistic Regression had high recall but very low precision, causing many false positives.
+- XGBoost achieved strong recall and ROC-AUC but lower precision than Random Forest.
+- SMOTE improved minority class detection significantly.
 - Accuracy alone was misleading because the dataset was highly imbalanced.
+
+---
+
+## Conclusion
+
+Random Forest provided the best balance between fraud detection capability and false positive reduction, making it the most practical model for this dataset.
