@@ -72,8 +72,3 @@ Frontend URL:
 ```txt
 http://localhost:5173
 ```
-## Screenshots
-
-### Dashboard
-
-![Fraud Detection Dashboard](screenshots/dashboard.png)
